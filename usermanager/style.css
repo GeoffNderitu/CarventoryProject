@@ -1,0 +1,87 @@
+.sidebar {
+    position: fixed;
+    top: 56px; /* Adjust the value based on the height of your navigation bar */
+    left: 0;
+    height: calc(100vh - 56px); /* Adjust the value based on the height of your navigation bar */
+    width: 250px;
+    background-color: #333;
+    padding-top: 20px;
+    color: #fff;
+    transition: left 0.3s ease-in-out;
+    z-index: 100;
+  }
+  
+  @media (max-width: 990px) {
+    .sidebar {
+      left: -250px;
+    }
+  
+    .sidebar.show {
+      left: 0;
+    }
+  }
+
+.admin_link{
+    list-style-type: none;
+}
+
+  .bebauser{
+    margin-left: 280px;
+  }
+  .sidebar .nav-item {
+    padding: 8px 20px;
+  }
+  
+  .sidebar .nav-link {
+    color: #fff;
+  }
+  
+  .sidebar .nav-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  
+  .sidebar .nav-link i {
+    margin-right: 10px;
+  }
+  
+  .content {
+    margin-left: 0;
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+  }
+  
+  .content.sidebar-open {
+    margin-left: 250px;
+  }
+  
+      .car-container {
+        background-color: #333;
+        padding: 20px;
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+      }
+  
+      .car-image {
+        max-width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+      }
+  
+      .problem-container {
+        background-color: #333;
+        padding: 20px;
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+        margin-bottom: 20px;
+      }
+      #sidebarToggle.active {
+    /* Adjust the values as needed */
+    position: fixed;
+    top: 20px;
+    left: 260px;
+    transition: left 0.3s ease-in-out;
+    z-index: 101;
+  }

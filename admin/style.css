@@ -1,0 +1,97 @@
+.card {
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  }
+  
+  .card-primary {
+    background-color: #343a40;
+  }
+  
+  .card-success {
+    background-color: #53885f;
+  }
+  
+  .card-danger {
+    background-color: #591d23;
+  }
+  
+  .card-info {
+    background-color: #6b979e;
+  }
+  
+  .card-warning {
+    background-color: #a38222;
+  }
+  .card-text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; 
+    -webkit-box-orient: vertical;
+  }
+    .car-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+
+  .car-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center;
+  }
+
+  .car-image {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+
+  .car-title {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+
+  .car-brand {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .car-specs {
+    margin-bottom: 10px;
+  }
+
+  .car-details {
+    font-size: 14px;
+    color: #888;
+  }
+    .navbar {
+      margin-bottom: 10px;
+    }
+    .navbar {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .navbar-brand img {
+    height: 30px;
+    margin-right: 5px;
+  }
+
+  .navbar-nav .nav-link {
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+  }
+
+  .user-info {
+    margin-left: auto;
+  }
